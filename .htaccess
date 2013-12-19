@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteCond %{REQUEST_URI} ^/wp-admin
+    RewriteRule (.*) /wordpress/$1 [L]
+
+    RewriteCond %{REQUEST_URI} ^/wp-login.php
+    RewriteRule (.*) /wordpress/$1 [L]
+
+    # RewriteRule ^index\.php$ - [L]
+    # RewriteCond %{REQUEST_FILENAME} !-f
+    # RewriteCond %{REQUEST_FILENAME} !-d
+    # RewriteRule . /index.php [L]
+</IfModule>
