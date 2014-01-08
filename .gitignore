@@ -1,6 +1,4 @@
 config
 vendor
-plugins
-themes
+content
 wordpress
-.sass-cache
