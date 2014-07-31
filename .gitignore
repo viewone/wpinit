@@ -1,10 +1,13 @@
 # Ignore wordpress itself
 wordpress
 
+# Ignore local config
+config/wp-cli.local.yml
+
 # Ignore everything in content directory except themes and language
-content/**/*
-!content/themes
-!content/languages
+content/*
+!content/themes/
+!content/languages/
 
 # Ignore vendor lib
 vendor
