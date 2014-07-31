@@ -1,2 +1,13 @@
-vendor
+# Ignore wordpress itself
 wordpress
+
+# Ignore everything in content directory except themes and language
+content/**/*
+!content/themes
+!content/languages
+
+# Ignore vendor lib
+vendor
+
+# We generate wp-config.php so we don't have to keep it in csv
+wp-config.php
