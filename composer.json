@@ -15,7 +15,10 @@
     "composer/installers": "~1",
     "viewone/wordpress": "~3",
     "wpackagist/advanced-custom-fields": "~4",
-    "viewone/acf-flexible-content": "~1"
+    "viewone/acf-flexible-content": "~1",
+    "viewone/acf-repeater": "~1",
+    "viewone/acf-gallery": "~1",
+    "viewone/acf-options-page": "~1"
   },
   "extra": {
     "installer-paths": {
