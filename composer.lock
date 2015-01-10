@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f98bce1c1bdebd0de20b8994531c337d",
+    "hash": "25cc9c44ecf2e4f80084583481c2c0f6",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.18",
+            "version": "v1.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
-                "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
                 "shasum": ""
             },
             "replace": {
@@ -59,6 +59,7 @@
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "Thelia",
                 "WolfCMS",
                 "agl",
                 "annotatecms",
@@ -68,9 +69,11 @@
                 "codeigniter",
                 "concrete5",
                 "croogo",
+                "dokuwiki",
                 "drupal",
                 "elgg",
                 "fuelphp",
+                "grav",
                 "installer",
                 "joomla",
                 "kohana",
@@ -94,7 +97,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-08-18 20:00:12"
+            "time": "2014-11-29 01:29:17"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -142,83 +145,40 @@
             "time": "2013-09-09 15:04:54"
         },
         {
-            "name": "viewone/acf-flexible-content",
-            "version": "1.1.1",
+            "name": "viewone/advanced-custom-fields-pro",
+            "version": "5.1.5",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:viewone/acf-flexible-content.git",
-                "reference": "c26d662aa0cc4d63aa6fb7a13071f3bcadde5304"
-            },
-            "require": {
-                "wpackagist/advanced-custom-fields": ">=4.0.0"
+                "url": "git@bitbucket.org:viewone/advanced-custom-fields-pro.git",
+                "reference": "37de47804205c43f2247826c0be336a9eb875a73"
             },
             "type": "wordpress-plugin",
-            "time": "2014-01-27 13:48:39"
-        },
-        {
-            "name": "viewone/acf-gallery",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:viewone/acf-gallery.git",
-                "reference": "5692d677d93b03379c559aa775d065977d8eaf84"
-            },
-            "require": {
-                "wpackagist/advanced-custom-fields": ">=4.0.0"
-            },
-            "type": "wordpress-plugin",
-            "time": "2014-05-15 13:53:33"
-        },
-        {
-            "name": "viewone/acf-options-page",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:viewone/acf-options-page.git",
-                "reference": "aa5bbe6630ca27ffd3868a79933f1f2ed454ef8a"
-            },
-            "require": {
-                "wpackagist/advanced-custom-fields": ">=4.0.0"
-            },
-            "type": "wordpress-plugin",
-            "time": "2014-06-04 10:38:28"
-        },
-        {
-            "name": "viewone/acf-repeater",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:viewone/acf-repeater.git",
-                "reference": "a0a1e1c3e6862c0dd01758d8ce67f9a3ae505d9b"
-            },
-            "require": {
-                "wpackagist/advanced-custom-fields": ">=4.0.0"
-            },
-            "type": "wordpress-plugin",
-            "time": "2014-01-16 12:59:01"
+            "time": "2014-12-12 13:35:10"
         },
         {
             "name": "viewone/wordpress",
-            "version": "4.0",
+            "version": "4.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.0.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.1.zip",
                 "reference": null,
                 "shasum": null
             },
             "type": "wordpress-core"
-        },
+        }
+    ],
+    "packages-dev": [
         {
-            "name": "wpackagist/advanced-custom-fields",
-            "version": "4.3.9",
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "2.2.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "trunk"
+                "url": "http://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "tags/2.2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "url": "http://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -226,24 +186,16 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/advanced-custom-fields/"
+            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.0"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

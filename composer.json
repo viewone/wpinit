@@ -14,11 +14,10 @@
     "johnpbloch/wordpress-core-installer": "~0.2",
     "composer/installers": "~1",
     "viewone/wordpress": "~4",
-    "wpackagist/advanced-custom-fields": "~4",
-    "viewone/acf-flexible-content": "~1",
-    "viewone/acf-repeater": "~1",
-    "viewone/acf-gallery": "~1",
-    "viewone/acf-options-page": "~1"
+    "viewone/advanced-custom-fields-pro": "~5"
+  },
+  "require-dev": {
+    "wpackagist-plugin/regenerate-thumbnails": "~2"
   },
   "extra": {
     "installer-paths": {
