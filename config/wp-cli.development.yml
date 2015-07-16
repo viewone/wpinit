@@ -1,0 +1,24 @@
+path: ../wordpress
+url: http://site.dev.domain.pl
+core config:
+  dbname: dbname
+  dbuser: dbuser
+  dbpass: dbpass
+  dbhost: localhost
+  locale: pl_PL
+  extra-php: |
+    define('WP_DEBUG', true);
+    define('AUTOSAVE_INTERVAL', '3600');
+    define('WP_POST_REVISIONS', false);
+    define('DISALLOW_FILE_EDIT', true);
+    define('WP_HOME', 'http://site.dev.domain.pl');
+    define('WP_SITEURL',  WP_HOME . '/wordpress/');
+    define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
+    define('WP_CONTENT_URL', WP_HOME . '/content');
+    define('SAVEQUERIES', true );
+  skip-check: true
+core install:
+  title: Site name
+  admin_user: admin_user
+  admin_password: admin_password
+  admin_email: admin_email
