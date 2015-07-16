@@ -17,7 +17,12 @@
     "viewone/advanced-custom-fields-pro": "~5"
   },
   "require-dev": {
-    "wpackagist-plugin/regenerate-thumbnails": "~2"
+    "wpackagist-plugin/regenerate-thumbnails": "~2",
+    "wpackagist-plugin/debug-bar": "~0.8",
+    "wpackagist-plugin/debug-bar-cron": "~0.1",
+    "wpackagist-plugin/debug-bar-slow-actions": "~0.8",
+    "wpackagist-plugin/fg-debug-bar-rewrite-rules": "~1",
+    "wpackagist-plugin/duplicate-post": "~2"
   },
   "extra": {
     "installer-paths": {
